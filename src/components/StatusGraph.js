@@ -59,7 +59,8 @@ const renderCustomizedLabel = ({
 
 const StatusGraph = () => {
     return (
-        <ResponsiveContainer width="100%" height={600}>
+        
+        <ResponsiveContainer  height={600} className="statusgraph">
             <PieChart width="100%" height="100%">
                 <Pie data={data01} dataKey="value" cx="50%" cy="50%" outerRadius="50%" fill="#8884d8" labelLine={false} label={renderCustomizedLabel}>
                     {data01.map((entry, index) => (

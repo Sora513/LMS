@@ -1,19 +1,18 @@
-import { auth } from '../js/firebase';
-import { useNavigate } from 'react-router-dom';
 import StatusGraph from './StatusGraph';
+import MyStatus from './MyStatus';
 const Home = () => {
-  const navigate = useNavigate();
-  const handleLogout = () => {
-    auth.signOut();
-    navigate('/login');
-  };
 
   return (
     <div>
-      <h1>トップページ</h1>
+      <div className="top-flex-container">
+        <MyStatus />
+      </div>
+      <div className="top-flex-container">
+        
+      <h2>Skills</h2>
       <StatusGraph />
-      <button onClick={handleLogout}>ログアウト</button>
-    </div>
+      </div>
+     </div>
   );
 };
 

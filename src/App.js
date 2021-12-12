@@ -11,7 +11,7 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <AuthProvider>
-      <div style={{ margin: '2em' }}>
+      <div>
         <BrowserRouter>
         <Header/>
         <Routes>
