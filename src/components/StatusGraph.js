@@ -6,7 +6,7 @@ const data01 = [
     { name: 'フロントエンド', value: 250, category: 1 },
     { name: 'バックエンド', value: 300, category: 2 },
     { name: '機械学習', value: 20, category: 3 },
-    { name: 'デザイン', value: 140, category: 4 },
+    { name: 'デザイン', value: 220, category: 4 },
     { name: 'その他', value: 30, category: 5 },
     { name: '電子工作', value: 100, category: 6 },
     { name: '低レイヤ', value: 40, category: 7 },
@@ -30,6 +30,8 @@ const data02 = [
     { name: 'Python', value: 20, category: 3 },
 
     { name: 'Illustrator', value: 40, category: 4 },
+    { name: 'three.js', value: 40, category: 4 },
+    { name: 'CreateJS', value: 40, category: 4 },
     { name: 'AfterEffects', value: 50, category: 4 },
     { name: 'CSS', value: 50, category: 4 },
 

@@ -81,3 +81,12 @@ h2{
 .mystatus-table tr td:first-child{
   color: orangered;
 }
+
+.top-container{
+  padding-bottom: 50px;
+}
+
+.comment{
+  width: 80%;
+  margin: auto;
+}
